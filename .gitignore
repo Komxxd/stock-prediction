@@ -1,0 +1,19 @@
+# Data files (too large for GitHub)
+data/train_data.csv
+data/test_data.csv
+
+# Credentials
+data/data_fetch.py
+
+# Model artifacts
+data/best_stock_model.pth
+data/x_scaler.pkl
+
+# Python
+__pycache__/
+*.pyc
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
