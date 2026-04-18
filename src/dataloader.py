@@ -27,7 +27,7 @@ def get_train_loader(df, features_list, target_col='target', lookback=60, batch_
     
     X_torch, y_torch = create_sequences(X_scaled, y_scaled, lookback)
     dataset = TensorDataset(X_torch, y_torch)
-    loader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
+    loader = DataLoader(dataset, batch_size=batch_size, shuffle=False)
     
     return loader, x_scaler, y_scaler
 

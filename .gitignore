@@ -1,19 +1,14 @@
-# Data files (too large for GitHub)
-data/train_data.csv
-data/test_data.csv
-
-# Credentials
-data/data_fetch.py
-
-# Model artifacts
-data/best_stock_model.pth
-data/x_scaler.pkl
-
-# Python
+# Python cache
 __pycache__/
-*.pyc
-.DS_Store
+*.py[cod]
 
-# IDE
-.vscode/
-.idea/
+# Project Specific - Data and Models (CSV, Models, Scalers)
+**/data/*.csv
+**/data/*.pth
+**/data/*.pkl
+**/data/*.png
+**/scripts/fetch_data.py
+
+# Project Specific - Logs and Plots
+**/logs/
+**/plots/
